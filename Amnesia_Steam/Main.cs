@@ -34,8 +34,7 @@ namespace Amnesia_Steam
                     player.account.banReason = "[AmnesiaSteam] Compte steam trop récent";
 ;                   player.account.banTimestamp = -1L;
                     player.Disconnect();
-                }
-                Console.WriteLine(content);            
+                }    
             }
             else
             {
